@@ -7,7 +7,7 @@ const todo = $ref('');
 
 function addTask(){
   todos.push({name:todo});
-  todo = '';
+  todo.value = '';
   console.log(todos);
 }
 
